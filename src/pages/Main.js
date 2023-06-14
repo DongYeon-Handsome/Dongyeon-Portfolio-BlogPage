@@ -1,7 +1,7 @@
 import React from 'react';
 import { useSetRecoilState } from 'recoil';
 import { menuAtom } from '../recoil/atom';
-import MainProfile from '../components/main/MainProfile';
+import MainTop from '../components/main/MainTop';
 import TectStat from '../components/main/TectStat';
 import ProjectSlide from '../components/main/ProjectSlide';
 
@@ -10,7 +10,7 @@ export default function Main(){
     return(
       <div style={{ marginTop: '6rem' }}>
         {setMenu(1)}
-            <MainProfile />
+            <MainTop />
             <TectStat />
             <ProjectSlide />
       </div>  
