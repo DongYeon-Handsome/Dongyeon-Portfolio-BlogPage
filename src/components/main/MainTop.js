@@ -7,7 +7,6 @@ const MainTopContainer = styled.div`
   left: 50%;
   transform: translate(-50%, 0);
   top: 50%;
-  bottom: 50%;
   z-index: 1;
   display: flex;
   flex-direction: column;
