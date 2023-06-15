@@ -33,19 +33,6 @@ const CardWrapper = styled.div`
   display: flex;
   flex-flow: row wrap;
   margin: 0 auto;
-  /*@media only screen and (min-width: 100px) and (max-width: 200px) {
-    width: 100%;
-    height: 50%;
-    justify-content: center;
-    display: flex;
-    margin: 0;
-  }
-  justify-content: center;
-  display: flex;
-  margin: auto;
-  margin-bottom: 5rem;
-  width: 80%;
-  height: 50%;*/
 `;
 
 const PrivacyCard = styled.div`
@@ -60,7 +47,6 @@ const PrivacyCard = styled.div`
 const PrivacyIcon = styled.img`
   width: 2.5rem;
   height: 2.5rem;
-  //margin-top: 1rem;
   margin-right: 20px;
 `;
 
