@@ -98,6 +98,18 @@ export default function Project(){
       </card.Card>
       <card.Card
         onClick={() => {
+          openModal('OOTD');
+        }}
+      >
+        <card.ImageField src={Icons[5].src}></card.ImageField>
+        <card.TextField>OOTD</card.TextField>
+        <card.TagField>
+          <card.Tag>#개발중</card.Tag>
+          <card.Tag>#APP</card.Tag>
+        </card.TagField>
+      </card.Card>
+      <card.Card
+        onClick={() => {
           openModal('comento');
         }}
       >
