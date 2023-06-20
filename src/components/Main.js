@@ -2,8 +2,8 @@ import React from 'react';
 import { useSetRecoilState } from 'recoil';
 import { menuAtom } from '../recoil/atom';
 import MainTop from './main/MainTop';
-import Project from './Project';
-import AboutMe from './AboutMe';
+import Project from './main/Project';
+import AboutMe from './main/AboutMe'
 
 export default function Main(){
   const setMenu = useSetRecoilState(menuAtom);

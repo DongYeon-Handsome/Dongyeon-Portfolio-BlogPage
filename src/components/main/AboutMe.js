@@ -1,11 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
-import telephone from '../assets/images/telephone.png';
-import user from '../assets/images/user.png';
-import email from '../assets/images/email.png';
-import birth from '../assets/images/birth.png';
-import address from '../assets/images/location-pointer.png';
-import school from '../assets/images/school.png';
+import telephone from '../../assets/images/telephone.png';
+import user from '../../assets/images/user.png';
+import email from '../../assets/images/email.png';
+import birth from '../../assets/images/birth.png';
+import address from '../../assets/images/location-pointer.png';
+import school from '../../assets/images/school.png';
 
 const AboutMeContainer = styled.div`
   //position: relative;
