@@ -3,10 +3,9 @@ import styled from 'styled-components';
 import MainImage from '../../assets/images/MainImage.png'
 
 const MainTopContainer = styled.div`
-  position: relative;
   left: 50%;
-  transform: translate(-50%, 0);
   top: 50%;
+  transform: translate(0, -20%);
   z-index: 1;
   display: flex;
   flex-direction: column;
@@ -19,8 +18,8 @@ const MainTopContainer = styled.div`
 
 const ProfileText = styled.p`
   text-align: center;
-  margin-top: 10rem;
-  margin-bottom: 7rem;
+  margin-top: 15rem;
+  margin-bottom: 10rem;
   .Name{
     font-family: 'SegoeUI', sans-serif;
     font-weight: bold;
@@ -39,12 +38,12 @@ const ProfileText = styled.p`
 export default function MainTop(){
   return(
     <>
-      <MainTopContainer>
+      <MainTopContainer id="home">
         <ProfileText>
           <div className='Name'>
-            - 김동연 -
+            김동연
             <br/>
-            포트폴리오
+            Dong's Portfolio
           </div>
           <div className='subText'>
             안녕하세요.<br/>
