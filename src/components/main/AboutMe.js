@@ -8,9 +8,9 @@ import address from '../assets/images/location-pointer.png';
 import school from '../assets/images/school.png';
 
 const AboutMeContainer = styled.div`
-  position: relative;
+  //position: relative;
   left: 50%;
-  transform: translate(-50%, 0);
+  transform: translate(0, -31%);
   top: 50%;
   display: flex;
   flex-direction: column;
@@ -69,7 +69,7 @@ const PrivacyText = styled.div`
 export default function AboutMe(){
   return(
     <>
-      <AboutMeContainer>
+      <AboutMeContainer id="aboutMe">
         <AboutMeTitle>About Me</AboutMeTitle>
         <CardWrapper>
           <PrivacyCard>
@@ -90,7 +90,7 @@ export default function AboutMe(){
             <PrivacyIcon src={email} />
             <PrivacyText>
               <div className='title'>이메일</div>
-              <div className='content'>010-7361-5070</div>
+              <div className='content'>dongyeon4367@gmail.com</div>
             </PrivacyText>
           </PrivacyCard>
         </CardWrapper>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { useSetRecoilState } from 'recoil';
 import { menuAtom } from '../recoil/atom';
-import MainTop from '../components/main/MainTop';
+import MainTop from './main/MainTop';
 import Project from './Project';
 import AboutMe from './AboutMe';
 

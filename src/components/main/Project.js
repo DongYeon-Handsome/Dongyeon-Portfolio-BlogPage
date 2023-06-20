@@ -1,20 +1,20 @@
 import React from 'react';
 import { useRecoilState, useSetRecoilState } from 'recoil';
-import { menuAtom } from '../recoil/atom';
-import { prjState, visibleState } from '../recoil/atom';
+import { menuAtom } from '../../recoil/atom';
+import { prjState, visibleState } from '../../recoil/atom';
 import styled from 'styled-components';
-import Icons from '../components/Icons';
-import card from '../components/projects/Card';
-import Modal from '../components/projects/Modal';
-import Projects from '../components/projects/Projects';
+import Icons from '../Icons';
+import card from '../projects/Card';
+import Modal from '../projects/Modal';
+import Projects from '../projects/Projects';
 
 const ProjectTitle = styled.p`
   text-align: center;
-  margin-top: 3rem;
+  margin-top: -5rem;
   font-family: 'SegoeUI', sans-serif;
   font-weight: bold;
   font-size: 60px;
-  line-height: 100px;
+  line-height: 5rem;
 `;
 
 const Wrapper = styled.div`
@@ -42,7 +42,7 @@ export default function Project(){
   };
   const setMenu = useSetRecoilState(menuAtom);
   return(
-    <>
+    <div id="projects">
       {setMenu(1)}
       <ProjectTitle>Projects</ProjectTitle>
       <Wrapper>
@@ -122,6 +122,6 @@ export default function Project(){
       </card.Card>
       <Modal content={Projects[prj]} visible={visible}></Modal>
     </Wrapper>
-  </>
+  </div>
   );
 }
