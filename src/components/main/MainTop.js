@@ -3,9 +3,17 @@ import styled from 'styled-components';
 import MainImage from '../../assets/images/MainImage.png'
 
 const MainTopContainer = styled.div`
+<<<<<<< HEAD
   left: 50%;
   top: 50%;
   transform: translate(0, -20%);
+=======
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  top: 50%;
+  bottom: 50%;
+>>>>>>> 7478a26f01e201bed8262b8fe55f171c12e06ea7
   z-index: 1;
   display: flex;
   flex-direction: column;
